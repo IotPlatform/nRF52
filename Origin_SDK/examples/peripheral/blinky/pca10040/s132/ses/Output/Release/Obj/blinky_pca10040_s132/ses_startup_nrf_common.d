@@ -1,0 +1,2 @@
+Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o: \
+ D\:\nRF52\Origin_SDK\modules\nrfx\mdk\ses_startup_nrf_common.s

@@ -1,0 +1,67 @@
+T33B0 000:008.793   SEGGER J-Link V6.90 Log File
+T33B0 000:009.113   DLL Compiled: Dec 11 2020 17:08:01
+T33B0 000:009.131   Logging started @ 2020-12-13 16:27
+T33B0 000:009.147 - 9.155ms
+T33B0 000:009.172 JLINK_SetWarnOutHandler(...)
+T33B0 000:009.191 - 0.027ms
+T33B0 000:009.209 JLINK_OpenEx(...)
+T33B0 000:011.185   Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Mar 17 2020 14:43:00
+T33B0 000:012.508   Hardware: V1.00
+T33B0 000:012.558   S/N: 682662887
+T33B0 000:012.592   OEM: SEGGER
+T33B0 000:012.626   Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+T33B0 000:013.718   TELNET listener socket opened on port 19021
+T33B0 000:014.105   WEBSRV Starting webserver
+T33B0 000:014.414   WEBSRV Webserver running on local port 19080
+T33B0 000:014.453 - 5.254ms returns "O.K."
+T33B0 000:014.498 JLINK_GetEmuCaps()
+T33B0 000:014.523 - 0.035ms returns 0xB8EA5A33
+T33B0 000:014.554 JLINK_TIF_GetAvailable(...)
+T33B0 000:014.729 - 0.188ms
+T33B0 000:014.761 JLINK_SetErrorOutHandler(...)
+T33B0 000:014.782 - 0.030ms
+T33B0 000:014.829 JLINK_ExecCommand("ProjectFile = "D:\nRF52\Origin_SDK\examples\peripheral\blinky\pca10040\mbr\arm5_no_packs\JLinkSettings.ini"", ...). 
+T33B0 000:037.173   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T33B0 000:037.457   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T33B0 000:039.221   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T33B0 000:106.870 - 92.069ms returns 0x00
+T33B0 000:110.346 JLINK_ExecCommand("Device = nRF52832_xxAA", ...). 
+T33B0 000:112.754   Device "NRF52832_XXAA" selected.
+T33B0 000:113.590 - 3.224ms returns 0x00
+T33B0 000:113.624 JLINK_GetHardwareVersion()
+T33B0 000:113.638 - 0.019ms returns 10000
+T33B0 000:113.652 JLINK_GetDLLVersion()
+T33B0 000:113.663 - 0.017ms returns 69000
+T33B0 000:113.676 JLINK_GetOEMString(...)
+T33B0 000:113.690 JLINK_GetFirmwareString(...)
+T33B0 000:113.702 - 0.017ms
+T33B0 000:123.489 JLINK_GetDLLVersion()
+T33B0 000:123.512 - 0.026ms returns 69000
+T33B0 000:123.521 JLINK_GetCompileDateTime()
+T33B0 000:123.528 - 0.011ms
+T33B0 000:125.942 JLINK_GetFirmwareString(...)
+T33B0 000:125.963 - 0.026ms
+T33B0 000:128.277 JLINK_GetHardwareVersion()
+T33B0 000:128.312 - 0.041ms returns 10000
+T33B0 000:130.585 JLINK_GetSN()
+T33B0 000:130.618 - 0.040ms returns 682662887
+T33B0 000:133.129 JLINK_GetOEMString(...)
+T33B0 000:140.576 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T33B0 000:141.517 - 0.965ms returns 0x00
+T33B0 000:141.555 JLINK_HasError()
+T33B0 000:141.584 JLINK_SetSpeed(5000)
+T33B0 000:141.673 - 0.097ms
+T33B0 000:141.691 JLINK_GetIdData(pIdData)
+T33B0 000:144.205   InitTarget() start
+T33B0 000:144.235    J-Link Script File: Executing InitTarget()
+T33B0 000:147.720   InitTarget() end
+T33B0 000:150.128   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T33B0 000:307.700   InitTarget() start
+T33B0 000:307.779    J-Link Script File: Executing InitTarget()
+T33B0 000:316.685   InitTarget() end
+T33B0 000:322.199   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T33B0 000:322.482 - 180.803ms
+T33B0 001:743.777 JLINK_Close()
+T33B0 001:753.628 - 9.883ms
+T33B0 001:753.668   
+T33B0 001:753.683   Closed
